@@ -40,8 +40,8 @@ with Docker.
 ### Run with Docker
 
 ```bash
-git clone https://github.com/oladimeji-balogun/bluechip-hackathon-backend.git
-cd bluechip-hackathon-backend
+git clone https://github.com/oladimeji-balogun/photon-backend.git
+cd photon-backend
 cp .env.example .env
 # Add your GROQ_API_KEY to .env
 docker-compose up --build
@@ -62,7 +62,7 @@ uvicorn main:app --reload
 ## Project structure
 
 ```
-bluechip-hackathon-backend/
+photon-backend/
 ├── main.py                          # FastAPI entry point
 ├── src/
 │   ├── config.py                    # settings and environment variables
